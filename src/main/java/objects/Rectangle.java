@@ -3,7 +3,7 @@ package objects;
 public class Rectangle {
 
     private double width;
-    private double height;
+    private double length;
     private int sides = 4;
     //convention: Constructors typically appear right after the fields and befor methods
 
@@ -18,15 +18,15 @@ public class Rectangle {
     //all-args or parameterized constructor
     public  Rectangle(double width, double height){
         setWidth(width);
-        setHeight(height);
+        setLength(height);
     }
 
 
     public double calculatePerimeter(){
-        return (2*height) + (2*width);
+        return (2* length) + (2*width);
     }
     public double calculateArea(){
-        return height * width;
+        return length * width;
     }
 
     public double getWidth() {
@@ -37,12 +37,12 @@ public class Rectangle {
         this.width = width;
     }
 
-    public double getHeight() {
-        return height;
+    public double getLength() {
+        return length;
     }
 
-    public void setHeight(double height) {
-        this.height = height;
+    public void setLength(double length) {
+        this.length = length;
     }
 
     public int getSides() {
