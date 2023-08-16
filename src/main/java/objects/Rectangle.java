@@ -11,14 +11,14 @@ public class Rectangle {
 
     public Rectangle(){
         setWidth(0);
-        setWidth(0);
+        setLength(0);
         //no return type or return for constructor
     }
 
     //all-args or parameterized constructor
-    public  Rectangle(double width, double height){
+    public  Rectangle(double width, double length){
         setWidth(width);
-        setLength(height);
+        setLength(length);
     }
 
 
