@@ -2,9 +2,9 @@ package objects;
 
 public class Rectangle {
 
-    private double width;
-    private double length;
-    private int sides = 4;
+    protected double width;
+    protected double length;
+    protected int sides = 4;
     //convention: Constructors typically appear right after the fields and befor methods
 
     //no-args constructor(Default Constructor)
