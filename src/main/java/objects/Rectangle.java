@@ -21,6 +21,9 @@ public class Rectangle {
         setLength(length);
     }
 
+    public void print(){
+        System.out.println("I am a Rectangle");
+    }
 
     public double calculatePerimeter(){
         return (2* length) + (2*width);

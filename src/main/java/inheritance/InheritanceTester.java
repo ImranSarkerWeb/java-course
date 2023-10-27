@@ -7,6 +7,10 @@ public class InheritanceTester {
 
         Square square =new Square();
         square.setLength(25);
-        System.out.println(square.calculatePerimeter());
+//        System.out.println(square.calculatePerimeter());
+
+        square.print();
+
+        square.print("Square");
     }
 }
